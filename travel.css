@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+  font-family: "Poppins", sans-serif;
+}
+
+.nav{
+  background-color: aqua;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  background-color: #5a8b96;
+}
+
+.navbar ul {
+  list-style-type: none; 
+  margin: 0;
+  padding: 0;
+ display: flex;
+ align-items: center;
+ justify-content: flex-end;
+}
+
+.navbar ul li {
+  margin:20px; 
+}
+
+.navbar ul li a {
+  color: rgb(252, 249, 249);
+  text-decoration: none; 
+}
+
+.navbar ul li a:hover {
+  text-decoration: underline; 
+}
+
+body{
+  background-image:url('https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8dHJhdmVsJTIwd2FsbHBhcGVyfGVufDB8fDB8fHww');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+body{
+  background-size: cover;
+  background-attachment: fixed;
+}
+.parent{
+  width:1000px;
+  height:300px;
+  display: flex;
+  margin:auto;
+  margin-top: 100px;
+  justify-content: space-evenly;
+}
+
+.child1,.child2,.child3,.child4{
+  height: 410px;
+  width: 200px;
+ justify-content: space-evenly;
+ color: #04000c;
+ text-align: center;
+ gap: 80px;
+ margin-left: none;
+ 
+}
+img{
+border-radius: 50%;
+padding: 20px;
+}
+.main{
+  text-align: center;
+}
+p{
+  font-size: smaller;
+  padding-top:5px;
+  color: black;
+}
+
+form.buton button {
+  width: 20%;
+  padding: 10px;
+  background: #180248;
+  color: white;
+  font-size: 17px;
+  cursor: pointer;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  
+}
+form.buton input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid rgb(32, 2, 73);
+  width: 80%;
+  background: #f1f1f1;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+form.example button:hover {
+  background: #40a4da;
+}
+
+.sub{
+  font-size: 60px;
+  color: #010f38c9;
+  padding-top: 60px;
+  padding-left: 110px;
+}
+
+.buttn{
+  background-color: #030735;
+  color: white;
+  padding-left: 8px;
+  padding-right: 5px;
+  border-radius: 10px;
+}
+
+.span{
+  display:flex;
+  gap:0
+}
